@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>VkSMMDesign_edition</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="closeMenu.png" />
+    <None Remove="menu.gif" />
+    <None Remove="menuOPen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="closeMenu.png" />
+    <Resource Include="menu.gif" />
+    <Resource Include="menuOPen.png" />
+  </ItemGroup>
+
+</Project>
