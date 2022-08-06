@@ -92,11 +92,7 @@
     </Window.Resources>
 
     <Grid>
-        <Button x:Name="OpenBtn" Content="" HorizontalAlignment="Left" Click="OpenBtn_Click" Margin="752,10,0,0" VerticalAlignment="Top" IsCancel="True" Width="38" Height="40" Style="{DynamicResource DefaultButtonStyle}">
-            <Button.Background>
-                <ImageBrush ImageSource="/menuOPen.png"/>
-            </Button.Background>
-        </Button>
+
         <Menu x:Name="SettingMenu" Margin="58,38,57,38" Visibility="Hidden">
             <Menu.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -108,11 +104,9 @@
             <ScrollViewer x:Name="ScrollingMenu" Height="538" Width="678" Visibility="Hidden"/>
         </Menu>
 
-        <Button x:Name="CloseMenuBtn" Content="" HorizontalAlignment="Left" Click="CloseMenuBtn_Click" Margin="752,10,0,0" VerticalAlignment="Top" IsCancel="True" Width="38" Height="40" Style="{DynamicResource DefaultButtonStyle}" BorderBrush="#00707070" av:IsHidden="True">
-            <Button.Background>
-                <ImageBrush ImageSource="/closeMenu.png"/>
-            </Button.Background>
-        </Button>
+
+        <Label Content="Label" HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="68" FontSize="20" Margin="0,190,0,0"/>
+        <Button x:Name="startSelenium" Content="Launch" HorizontalAlignment="Center" Click="StartSel_Click" Margin="0,287,0,0" VerticalAlignment="Top" Height="38" Width="182" FontSize="20"/>
 
     </Grid>
 </Window>
