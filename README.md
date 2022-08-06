@@ -1,1 +1,1 @@
-# VkSMMDesign edition
+# Client for VK
